@@ -75,4 +75,3 @@ document.querySelector(".yes-btn").addEventListener("click", function() {
   document.getElementById("final-text").style.display = "block"; // show final text
   document.querySelector(".contactForm").style.display = "block"; // show form
 });
-
