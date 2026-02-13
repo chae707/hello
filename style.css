@@ -157,9 +157,9 @@ display: inline-block;
 
 .contactForm {
   width: 90%;          /* use most of the window width */
-  max-width: 320px;    /* keep it neat */
-  padding: 10px;
-  margin-top: 10px;
+  max-width: 300px;    /* keep it neat */
+  padding: 8px;
+  margin-top: 6px;
   display: none; /* keeps it hidden initially */
   box-sizing: border-box;
 }
@@ -167,14 +167,14 @@ display: inline-block;
 
 .contactForm .inputBox {
   width: 100%;
-  padding: 10px;
-  margin-top: 8px;
+  padding: 4px;
+  margin-top: 2px;
 }
 
 .contactForm .inputBox textarea {
   width: 100%;
-  min-height: 20px;      /* smaller textarea height */
-  padding: 6px;
+  min-height: 10px;      /* smaller textarea height */
+  padding: 5px;
   font-size: 10px;       /* smaller text */
   margin: 6px 0;
   border: 2px solid rgb(132, 42, 59);
@@ -185,13 +185,22 @@ display: inline-block;
 }
 
 .contactForm .inputBox input[type="submit"] {
-  width: 80%;
+   display: block;
+  margin: 5px auto;         /* centers horizontally */
+  width: 40%;               /* balanced size */
   background-color: rgb(132, 42, 59);
   color: white;
   border: none;
   cursor: pointer;
-  padding: 6px;
-  font-size: 10x;       /* slightly smaller */
-  border-radius: 6px;
-  margin-top: 3px;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+body {
+  font-family: 'Aldrich', sans-serif;
+}
+
+title.textContent{
+    font-family: 'Mountains of Christmas', sans-serif;
 }
