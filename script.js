@@ -60,7 +60,7 @@ noBtn.addEventListener("mouseover", () => {
 // YES is clicked
 
 yesBtn.addEventListener("click", () => {
-    title.textContent ="See you on February 15, 2026!♡";
+    title.textContent = "See you on February 15, 2026!♡";
 
     catImg.src = "cat_dance.gif";
 
@@ -75,3 +75,4 @@ document.querySelector(".yes-btn").addEventListener("click", function() {
   document.getElementById("final-text").style.display = "block"; // show final text
   document.querySelector(".contactForm").style.display = "block"; // show form
 });
+
